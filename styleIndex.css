@@ -1,0 +1,41 @@
+*{
+  margin:0;
+  padding: 0;
+}
+#elHeader{
+  display: grid;
+  grid-template-rows:70% 30%;
+  width: 200px;
+  height: 270px;
+}
+#miFoto{
+  height: 100%;
+}
+#miNombre{
+  font-size: 120%;
+  text-align: center;
+}
+#laSeccion{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+#relleno{
+  background: grey;
+  border-top-left-radius: 50px;
+  grid-column: 2/4;
+  grid-row: 1/2;
+}
+#personales{
+  background: grey;
+  grid-column: 1/2;
+  grid-row: 2/4;
+}
+#experiencia{
+  grid-column: 2/3;
+  grid-row: 2/4;
+}
+#formacion{
+  grid-column: 3/4;
+  grid-row: 2/4;
+}
